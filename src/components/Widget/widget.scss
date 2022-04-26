@@ -1,0 +1,60 @@
+.widget{
+    display: flex;
+    padding: 20px;
+    padding-top: 20px;
+    gap: 20px;
+
+
+    .welcome{
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(154, 154, 160, 0.47);
+        border-radius: 10px;
+        height: 150px;
+        width: 400px;
+        
+        .text{
+            margin-top: 30px;
+            white-space: nowrap;
+            font-size: 22px;
+            font-weight: 600;
+            padding-left: 1px;
+            color: #1A237E;
+
+        }
+        .doctor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding-left: 10px;
+            
+            
+            
+            
+        }
+    }
+
+    
+    .schedule{
+        position:relative ;
+        display: flex;
+       
+        justify-content: space-between;
+        flex: 10;
+        
+        margin-top: 15px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(154, 154, 160, 0.47);
+        border-radius: 10px;
+        height: 450px;
+        width: 700px;
+    }
+}
+
