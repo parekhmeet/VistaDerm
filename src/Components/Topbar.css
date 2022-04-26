@@ -1,0 +1,44 @@
+.topbar{
+    position: fixed;
+}
+
+.search input {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+    box-shadow: 1px 3px 6px 6px #E8EBF2;
+    margin-left: 255px;
+    margin-top: 12px;
+    padding-left: 40px;
+    font-size: 15px;
+    font-family: 'Ubuntu Medium';
+    color: #A0A4A8;
+}
+
+.searchIcon {
+    color: #A0A4A8;
+    padding: 0%;
+    font-size: 15px;
+    margin-left: 270px;
+    margin-top: -27px;
+}
+
+.notifications{
+    color: #A0A4A8;
+    padding: 0%;
+    font-size: 20px;
+    margin-left: 1220px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+
+.user{
+    color: #A0A4A8;
+    padding: 0%;
+    font-size: 20px;
+    margin-left: 1260px;
+    cursor: pointer;
+    margin-top: -23px;
+}

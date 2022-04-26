@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vw;
+;}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #F6F8FB;
+  font-family: 'Ubuntu Medium';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Sidebar {
+  height: 100%;
+  width: 200px;
+  box-shadow: -10px -10px 60px 20px #E8EBF2;
+  background-color: #FFFFFF;
+  position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Sidebar #logo{
+  color: #FF1818;
+  font-family: 'Ubuntu Medium';
+  padding: 0%;
+  margin: 0%;
+  width: 200px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  position: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.SidebarList {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 10px;
+  padding-top: 80px;
+  background-color: #FEFEFE;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SidebarList .row{
+  height: 45px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  color: #52575C;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu Medium';
+}
+
+.SidebarList #active{
+  color: #336CFB;
+}
+
+.row #icon{
+  flex: 20%;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+
+.row #title{
+  flex: 80%;
+  font-size: 13px;
 }
